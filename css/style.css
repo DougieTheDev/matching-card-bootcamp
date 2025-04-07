@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+  }
+
+  .card-game {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .card.flipped {
+    background-color: #fff;
+  }
